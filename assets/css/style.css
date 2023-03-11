@@ -325,5 +325,19 @@ footer {
         text-align: center;
     }
 
+    /* gallery */
+
+#photos {
+    
+    column-count: 3;
+   
+}
+
 }
  
+@media (max-width: 800px) {
+    #photos {
+    
+        column-count: 2;
+    }
+}
